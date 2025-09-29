@@ -920,3 +920,399 @@ java.lang.IllegalStateException: Profile not locked due to exception: C:\Program
 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
 	at org.eclipse.ui.internal.Workbench$56.run(Workbench.java:2755)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2025-09-30 01:04:35.123 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -showlocation
+
+!ENTRY com.tibco.bw.sharedresource.jdbc.driver.template 4 0 2025-09-30 01:04:36.068
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jdbc.driver.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY com.tibco.bw.sharedresource.jdbc.driver.template 4 0 2025-09-30 01:04:36.069
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jdbc.driver.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY com.tibco.bw.sharedresource.jms.provider.template 4 0 2025-09-30 01:04:36.077
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jms.provider.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY com.tibco.bw.sharedresource.jms.provider.template 4 0 2025-09-30 01:04:36.081
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jms.provider.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:04:39.924
+!MESSAGE Both 'com.tibco.amf.sharedresource.model.transport.eclipse' and 'com.tibco.amf.sharedresource.model.transport.eclipse' register a package for 'http://xsd.tns.tibco.com/amf/models/sharedresource/httpconnector'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:04:39.926
+!MESSAGE Both 'com.tibco.bw.core.model.eclipse' and 'com.tibco.bw.core.model.eclipse' register a package for 'http://ns.tibco.com/bw/core/internalactivity'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:04:39.927
+!MESSAGE Both 'com.tibco.bw.sharedresource.http.model' and 'com.tibco.bw.sharedresource.http.model' register a package for 'http://xsd.tns.tibco.com/bw/models/sharedresource/httpclient'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:04:39.928
+!MESSAGE Both 'com.tibco.amf.sharedresource.model.data.eclipse' and 'com.tibco.bw.sharedresource.jdbc.model' register a package for 'http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:04:39.929
+!MESSAGE Both 'com.tibco.amf.sca.model.eclipse' and 'com.tibco.bw.sharedresource.ws.policy.model' register a package for 'http://schemas.xmlsoap.org/ws/2004/09/policy'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:04:39.929
+!MESSAGE Both 'com.tibco.amf.wsdl.extensions.eclipse' and 'com.tibco.bw.wsdl.extensions' register a package for 'http://xsd.tns.tibco.com/wsdl/models/extensions/soap/tibcojms'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:04:39.930
+!MESSAGE Both 'com.tibco.amf.wsdl.extensions.eclipse' and 'com.tibco.bw.wsdl.extensions' register a package for 'http://xsd.tns.tibco.com/wsdl/models/soap12'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:04:39.936
+!MESSAGE Both 'com.tibco.bw.sharedresource.identity.model' and 'com.tibco.bw.sharedresource.ws.policy.model' register an extension parser for 'policy'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:04:39.937
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'auth'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:04:39.937
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'identity'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:04:39.938
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'userid'
+
+!ENTRY org.eclipse.ui 2 0 2025-09-30 01:04:40.207
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-09-30 01:04:40.207
+!MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.migration2x.ui', id='com.tibco.amf.tools.migration2x.ui.migrateTo3xCommand', categoryId='com.tibco.amf.tools.composite.resources.ui.TasksCategory'
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-09-30 01:04:40.207
+!MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.packager.ui', id='com.tibco.amf.tools.packager.ui.createDaa.command', categoryId='tibco.category.soa_platform'
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-09-30 01:04:40.207
+!MESSAGE Commands should really have a category: plug-in='com.tibco.bw.binding.soap.axis2.design', id='com.tibco.bw.binding.soap.axis2.design.generateWSDL', categoryId='tibco.category.soa_platform'
+
+!ENTRY org.eclipse.ui 2 0 2025-09-30 01:04:40.527
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-09-30 01:04:40.527
+!MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.migration2x.ui', id='com.tibco.amf.tools.migration2x.ui.migrateTo3xCommand', categoryId='com.tibco.amf.tools.composite.resources.ui.TasksCategory'
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-09-30 01:04:40.527
+!MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.packager.ui', id='com.tibco.amf.tools.packager.ui.createDaa.command', categoryId='tibco.category.soa_platform'
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-09-30 01:04:40.527
+!MESSAGE Commands should really have a category: plug-in='com.tibco.bw.binding.soap.axis2.design', id='com.tibco.bw.binding.soap.axis2.design.generateWSDL', categoryId='tibco.category.soa_platform'
+
+!ENTRY org.eclipse.pde.core 4 0 2025-09-30 01:04:44.690
+!MESSAGE The current target platform contains errors, open Window > Preferences > Plug-in Development > Target Platform for details.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems occurred getting the plug-ins in this container
+	at org.eclipse.pde.internal.core.PluginModelManager.getExternalBundles(PluginModelManager.java:604)
+	at org.eclipse.pde.internal.core.PluginModelManager.initializeTable(PluginModelManager.java:525)
+	at org.eclipse.pde.internal.core.PluginModelManager.findModel(PluginModelManager.java:874)
+	at org.eclipse.pde.core.plugin.PluginRegistry.findModel(PluginRegistry.java:110)
+	at com.tibco.zion.dc.util.ProjectHelper.isZionApplicationProject(ProjectHelper.java:72)
+	at com.tibco.bw.core.design.project.explorer.EditionDecorator.decorate(EditionDecorator.java:24)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:267)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Contains: Directory does not exist: C:\Program Files\tibco\bw6\bw\6.5\system\hotfix\lib\common
+!SUBENTRY 1 org.eclipse.pde.core 4 0 2025-09-30 01:04:44.692
+!MESSAGE Problems occurred getting the plug-ins in this container
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2025-09-30 01:04:44.692
+!MESSAGE Directory does not exist: C:\Program Files\tibco\bw6\bw\6.5\system\hotfix\lib\common
+
+!ENTRY com.tibco.xpd.fragments 4 0 2025-09-30 01:04:49.528
+!MESSAGE com.tibco.xpd.fragments.internal.FragmentsManager$5.run(FragmentsManager.java:787) FragmentsManager.initialize(): No root categories found!!!
+
+!ENTRY org.eclipse.ui.workbench 4 2 2025-09-30 01:04:49.612
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.IllegalStateException: Profile not locked due to exception: C:\Program Files\tibco\bw6\eclipse-platform\bundlepool\1.0\org.eclipse.equinox.p2.engine\profileRegistry\TIBCOBusinessStudio-4.0.profile\.lock (Access is denied)
+	at org.eclipse.equinox.internal.p2.engine.ProfileLock.lock(ProfileLock.java:106)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.restore(SimpleProfileRegistry.java:529)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfileMap(SimpleProfileRegistry.java:365)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfile(SimpleProfileRegistry.java:249)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:179)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler.earlyStartup(AutomaticUpdateScheduler.java:88)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:89)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:67)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$56.run(Workbench.java:2755)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui 4 4 2025-09-30 01:04:49.615
+!MESSAGE Unhandled Exception
+
+!ENTRY org.eclipse.equinox.p2.ui.sdk.scheduler 4 0 2025-09-30 01:04:49.616
+!MESSAGE Unable to execute early startup code for an extension
+!STACK 0
+java.lang.IllegalStateException: Profile not locked due to exception: C:\Program Files\tibco\bw6\eclipse-platform\bundlepool\1.0\org.eclipse.equinox.p2.engine\profileRegistry\TIBCOBusinessStudio-4.0.profile\.lock (Access is denied)
+	at org.eclipse.equinox.internal.p2.engine.ProfileLock.lock(ProfileLock.java:106)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.restore(SimpleProfileRegistry.java:529)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfileMap(SimpleProfileRegistry.java:365)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfile(SimpleProfileRegistry.java:249)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:179)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler.earlyStartup(AutomaticUpdateScheduler.java:88)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:89)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:67)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$56.run(Workbench.java:2755)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2025-09-30 01:28:07.892 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -showlocation
+
+!ENTRY com.tibco.bw.sharedresource.jdbc.driver.template 4 0 2025-09-30 01:28:09.121
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jdbc.driver.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY com.tibco.bw.sharedresource.jdbc.driver.template 4 0 2025-09-30 01:28:09.122
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jdbc.driver.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY com.tibco.bw.sharedresource.jms.provider.template 4 0 2025-09-30 01:28:09.129
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jms.provider.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY com.tibco.bw.sharedresource.jms.provider.template 4 0 2025-09-30 01:28:09.129
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jms.provider.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:28:12.861
+!MESSAGE Both 'com.tibco.amf.sharedresource.model.transport.eclipse' and 'com.tibco.amf.sharedresource.model.transport.eclipse' register a package for 'http://xsd.tns.tibco.com/amf/models/sharedresource/httpconnector'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:28:12.863
+!MESSAGE Both 'com.tibco.bw.core.model.eclipse' and 'com.tibco.bw.core.model.eclipse' register a package for 'http://ns.tibco.com/bw/core/internalactivity'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:28:12.864
+!MESSAGE Both 'com.tibco.bw.sharedresource.http.model' and 'com.tibco.bw.sharedresource.http.model' register a package for 'http://xsd.tns.tibco.com/bw/models/sharedresource/httpclient'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:28:12.865
+!MESSAGE Both 'com.tibco.amf.sharedresource.model.data.eclipse' and 'com.tibco.bw.sharedresource.jdbc.model' register a package for 'http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:28:12.867
+!MESSAGE Both 'com.tibco.amf.sca.model.eclipse' and 'com.tibco.bw.sharedresource.ws.policy.model' register a package for 'http://schemas.xmlsoap.org/ws/2004/09/policy'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:28:12.867
+!MESSAGE Both 'com.tibco.amf.wsdl.extensions.eclipse' and 'com.tibco.bw.wsdl.extensions' register a package for 'http://xsd.tns.tibco.com/wsdl/models/extensions/soap/tibcojms'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:28:12.867
+!MESSAGE Both 'com.tibco.amf.wsdl.extensions.eclipse' and 'com.tibco.bw.wsdl.extensions' register a package for 'http://xsd.tns.tibco.com/wsdl/models/soap12'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:28:12.873
+!MESSAGE Both 'com.tibco.bw.sharedresource.identity.model' and 'com.tibco.bw.sharedresource.ws.policy.model' register an extension parser for 'policy'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:28:12.874
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'auth'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:28:12.874
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'identity'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:28:12.874
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'userid'
+
+!ENTRY org.eclipse.ui 2 0 2025-09-30 01:28:13.204
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-09-30 01:28:13.204
+!MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.migration2x.ui', id='com.tibco.amf.tools.migration2x.ui.migrateTo3xCommand', categoryId='com.tibco.amf.tools.composite.resources.ui.TasksCategory'
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-09-30 01:28:13.204
+!MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.packager.ui', id='com.tibco.amf.tools.packager.ui.createDaa.command', categoryId='tibco.category.soa_platform'
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-09-30 01:28:13.204
+!MESSAGE Commands should really have a category: plug-in='com.tibco.bw.binding.soap.axis2.design', id='com.tibco.bw.binding.soap.axis2.design.generateWSDL', categoryId='tibco.category.soa_platform'
+
+!ENTRY org.eclipse.ui 2 0 2025-09-30 01:28:13.629
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-09-30 01:28:13.629
+!MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.migration2x.ui', id='com.tibco.amf.tools.migration2x.ui.migrateTo3xCommand', categoryId='com.tibco.amf.tools.composite.resources.ui.TasksCategory'
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-09-30 01:28:13.629
+!MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.packager.ui', id='com.tibco.amf.tools.packager.ui.createDaa.command', categoryId='tibco.category.soa_platform'
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-09-30 01:28:13.629
+!MESSAGE Commands should really have a category: plug-in='com.tibco.bw.binding.soap.axis2.design', id='com.tibco.bw.binding.soap.axis2.design.generateWSDL', categoryId='tibco.category.soa_platform'
+
+!ENTRY org.eclipse.pde.core 4 0 2025-09-30 01:28:19.167
+!MESSAGE The current target platform contains errors, open Window > Preferences > Plug-in Development > Target Platform for details.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems occurred getting the plug-ins in this container
+	at org.eclipse.pde.internal.core.PluginModelManager.getExternalBundles(PluginModelManager.java:604)
+	at org.eclipse.pde.internal.core.PluginModelManager.initializeTable(PluginModelManager.java:525)
+	at org.eclipse.pde.internal.core.PluginModelManager.findModel(PluginModelManager.java:874)
+	at org.eclipse.pde.core.plugin.PluginRegistry.findModel(PluginRegistry.java:110)
+	at com.tibco.zion.dc.util.ProjectHelper.isZionApplicationProject(ProjectHelper.java:72)
+	at com.tibco.bw.core.design.project.explorer.EditionDecorator.decorate(EditionDecorator.java:24)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:267)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Contains: Directory does not exist: C:\Program Files\tibco\bw6\bw\6.5\system\hotfix\lib\common
+!SUBENTRY 1 org.eclipse.pde.core 4 0 2025-09-30 01:28:19.174
+!MESSAGE Problems occurred getting the plug-ins in this container
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2025-09-30 01:28:19.174
+!MESSAGE Directory does not exist: C:\Program Files\tibco\bw6\bw\6.5\system\hotfix\lib\common
+
+!ENTRY com.tibco.xpd.fragments 4 0 2025-09-30 01:28:26.350
+!MESSAGE com.tibco.xpd.fragments.internal.FragmentsManager$5.run(FragmentsManager.java:787) FragmentsManager.initialize(): No root categories found!!!
+
+!ENTRY org.eclipse.ui.workbench 4 2 2025-09-30 01:28:26.443
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.IllegalStateException: Profile not locked due to exception: C:\Program Files\tibco\bw6\eclipse-platform\bundlepool\1.0\org.eclipse.equinox.p2.engine\profileRegistry\TIBCOBusinessStudio-4.0.profile\.lock (Access is denied)
+	at org.eclipse.equinox.internal.p2.engine.ProfileLock.lock(ProfileLock.java:106)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.restore(SimpleProfileRegistry.java:529)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfileMap(SimpleProfileRegistry.java:365)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfile(SimpleProfileRegistry.java:249)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:179)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler.earlyStartup(AutomaticUpdateScheduler.java:88)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:89)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:67)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$56.run(Workbench.java:2755)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui 4 4 2025-09-30 01:28:26.445
+!MESSAGE Unhandled Exception
+
+!ENTRY org.eclipse.equinox.p2.ui.sdk.scheduler 4 0 2025-09-30 01:28:26.447
+!MESSAGE Unable to execute early startup code for an extension
+!STACK 0
+java.lang.IllegalStateException: Profile not locked due to exception: C:\Program Files\tibco\bw6\eclipse-platform\bundlepool\1.0\org.eclipse.equinox.p2.engine\profileRegistry\TIBCOBusinessStudio-4.0.profile\.lock (Access is denied)
+	at org.eclipse.equinox.internal.p2.engine.ProfileLock.lock(ProfileLock.java:106)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.restore(SimpleProfileRegistry.java:529)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfileMap(SimpleProfileRegistry.java:365)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfile(SimpleProfileRegistry.java:249)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:179)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler.earlyStartup(AutomaticUpdateScheduler.java:88)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:89)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:67)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$56.run(Workbench.java:2755)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2025-09-30 01:31:06.617 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -showlocation
+
+!ENTRY com.tibco.bw.sharedresource.jdbc.driver.template 4 0 2025-09-30 01:31:07.501
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jdbc.driver.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY com.tibco.bw.sharedresource.jdbc.driver.template 4 0 2025-09-30 01:31:07.502
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jdbc.driver.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY com.tibco.bw.sharedresource.jms.provider.template 4 0 2025-09-30 01:31:07.505
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jms.provider.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY com.tibco.bw.sharedresource.jms.provider.template 4 0 2025-09-30 01:31:07.508
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jms.provider.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:31:10.493
+!MESSAGE Both 'com.tibco.amf.sharedresource.model.transport.eclipse' and 'com.tibco.amf.sharedresource.model.transport.eclipse' register a package for 'http://xsd.tns.tibco.com/amf/models/sharedresource/httpconnector'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:31:10.495
+!MESSAGE Both 'com.tibco.bw.core.model.eclipse' and 'com.tibco.bw.core.model.eclipse' register a package for 'http://ns.tibco.com/bw/core/internalactivity'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:31:10.497
+!MESSAGE Both 'com.tibco.bw.sharedresource.http.model' and 'com.tibco.bw.sharedresource.http.model' register a package for 'http://xsd.tns.tibco.com/bw/models/sharedresource/httpclient'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:31:10.497
+!MESSAGE Both 'com.tibco.amf.sharedresource.model.data.eclipse' and 'com.tibco.bw.sharedresource.jdbc.model' register a package for 'http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:31:10.499
+!MESSAGE Both 'com.tibco.amf.sca.model.eclipse' and 'com.tibco.bw.sharedresource.ws.policy.model' register a package for 'http://schemas.xmlsoap.org/ws/2004/09/policy'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:31:10.499
+!MESSAGE Both 'com.tibco.amf.wsdl.extensions.eclipse' and 'com.tibco.bw.wsdl.extensions' register a package for 'http://xsd.tns.tibco.com/wsdl/models/extensions/soap/tibcojms'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:31:10.499
+!MESSAGE Both 'com.tibco.amf.wsdl.extensions.eclipse' and 'com.tibco.bw.wsdl.extensions' register a package for 'http://xsd.tns.tibco.com/wsdl/models/soap12'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:31:10.506
+!MESSAGE Both 'com.tibco.bw.sharedresource.identity.model' and 'com.tibco.bw.sharedresource.ws.policy.model' register an extension parser for 'policy'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:31:10.506
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'auth'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:31:10.506
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'identity'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-09-30 01:31:10.507
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'userid'
+
+!ENTRY org.eclipse.ui 2 0 2025-09-30 01:31:10.778
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-09-30 01:31:10.778
+!MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.migration2x.ui', id='com.tibco.amf.tools.migration2x.ui.migrateTo3xCommand', categoryId='com.tibco.amf.tools.composite.resources.ui.TasksCategory'
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-09-30 01:31:10.778
+!MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.packager.ui', id='com.tibco.amf.tools.packager.ui.createDaa.command', categoryId='tibco.category.soa_platform'
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-09-30 01:31:10.778
+!MESSAGE Commands should really have a category: plug-in='com.tibco.bw.binding.soap.axis2.design', id='com.tibco.bw.binding.soap.axis2.design.generateWSDL', categoryId='tibco.category.soa_platform'
+
+!ENTRY org.eclipse.ui 2 0 2025-09-30 01:31:11.096
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-09-30 01:31:11.097
+!MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.migration2x.ui', id='com.tibco.amf.tools.migration2x.ui.migrateTo3xCommand', categoryId='com.tibco.amf.tools.composite.resources.ui.TasksCategory'
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-09-30 01:31:11.097
+!MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.packager.ui', id='com.tibco.amf.tools.packager.ui.createDaa.command', categoryId='tibco.category.soa_platform'
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-09-30 01:31:11.097
+!MESSAGE Commands should really have a category: plug-in='com.tibco.bw.binding.soap.axis2.design', id='com.tibco.bw.binding.soap.axis2.design.generateWSDL', categoryId='tibco.category.soa_platform'
+
+!ENTRY org.eclipse.pde.core 4 0 2025-09-30 01:31:15.379
+!MESSAGE The current target platform contains errors, open Window > Preferences > Plug-in Development > Target Platform for details.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems occurred getting the plug-ins in this container
+	at org.eclipse.pde.internal.core.PluginModelManager.getExternalBundles(PluginModelManager.java:604)
+	at org.eclipse.pde.internal.core.PluginModelManager.initializeTable(PluginModelManager.java:525)
+	at org.eclipse.pde.internal.core.PluginModelManager.findModel(PluginModelManager.java:874)
+	at org.eclipse.pde.core.plugin.PluginRegistry.findModel(PluginRegistry.java:110)
+	at com.tibco.zion.dc.util.ProjectHelper.isZionApplicationProject(ProjectHelper.java:72)
+	at com.tibco.bw.core.design.project.explorer.EditionDecorator.decorate(EditionDecorator.java:24)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:267)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Contains: Directory does not exist: C:\Program Files\tibco\bw6\bw\6.5\system\hotfix\lib\common
+!SUBENTRY 1 org.eclipse.pde.core 4 0 2025-09-30 01:31:15.380
+!MESSAGE Problems occurred getting the plug-ins in this container
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2025-09-30 01:31:15.380
+!MESSAGE Directory does not exist: C:\Program Files\tibco\bw6\bw\6.5\system\hotfix\lib\common
+
+!ENTRY com.tibco.xpd.fragments 4 0 2025-09-30 01:31:20.752
+!MESSAGE com.tibco.xpd.fragments.internal.FragmentsManager$5.run(FragmentsManager.java:787) FragmentsManager.initialize(): No root categories found!!!
+
+!ENTRY org.eclipse.ui.workbench 4 2 2025-09-30 01:31:20.836
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.IllegalStateException: Profile not locked due to exception: C:\Program Files\tibco\bw6\eclipse-platform\bundlepool\1.0\org.eclipse.equinox.p2.engine\profileRegistry\TIBCOBusinessStudio-4.0.profile\.lock (Access is denied)
+	at org.eclipse.equinox.internal.p2.engine.ProfileLock.lock(ProfileLock.java:106)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.restore(SimpleProfileRegistry.java:529)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfileMap(SimpleProfileRegistry.java:365)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfile(SimpleProfileRegistry.java:249)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:179)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler.earlyStartup(AutomaticUpdateScheduler.java:88)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:89)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:67)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$56.run(Workbench.java:2755)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui 4 4 2025-09-30 01:31:20.837
+!MESSAGE Unhandled Exception
+
+!ENTRY org.eclipse.equinox.p2.ui.sdk.scheduler 4 0 2025-09-30 01:31:20.838
+!MESSAGE Unable to execute early startup code for an extension
+!STACK 0
+java.lang.IllegalStateException: Profile not locked due to exception: C:\Program Files\tibco\bw6\eclipse-platform\bundlepool\1.0\org.eclipse.equinox.p2.engine\profileRegistry\TIBCOBusinessStudio-4.0.profile\.lock (Access is denied)
+	at org.eclipse.equinox.internal.p2.engine.ProfileLock.lock(ProfileLock.java:106)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.restore(SimpleProfileRegistry.java:529)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfileMap(SimpleProfileRegistry.java:365)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfile(SimpleProfileRegistry.java:249)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:179)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler.earlyStartup(AutomaticUpdateScheduler.java:88)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:89)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:67)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$56.run(Workbench.java:2755)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)

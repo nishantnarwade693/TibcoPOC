@@ -1,8 +1,8 @@
-Manifest-Version: 1.0.0.202509300023
+Manifest-Version: 1.0.0.202509300129
 Bundle-ManifestVersion: 2
 Bundle-Name: SampleTibcoApp Module
 Bundle-SymbolicName: SampleTibcoApp.module
-Bundle-Version: 1.0.0.202509300023
+Bundle-Version: 1.0.0.202509300129
 Bundle-Vendor: TIBCO Software Inc.
 TIBCO-BW-ApplicationModule: META-INF/module.bwm
 TIBCO-BW-ConfigProfile: META-INF/default.substvar
