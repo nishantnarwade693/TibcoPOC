@@ -1,2 +1,4 @@
+description.buildorder=SampleTibcoApp.parent/SampleTibcoApp.module/SampleTibcoApp
+description.defaultbuildorder=false
 eclipse.preferences.version=1
 version=1
